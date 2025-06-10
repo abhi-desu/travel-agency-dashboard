@@ -86,7 +86,7 @@ declare interface TripCardProps {
 declare interface StatsCard {
   headerTitle: string;
   total: number;
-  lastMonthCount: number;
+  previousMonthCount: number;
   currentMonthCount: number;
 }
 
@@ -99,17 +99,17 @@ declare interface DashboardStats {
   totalUsers: number;
   usersJoined: {
     currentMonth: number;
-    lastMonth: number;
+    previousMonth: number;
   };
   userRole: {
     total: number;
     currentMonth: number;
-    lastMonth: number;
+    previousMonth: number;
   };
   totalTrips: number;
   tripsCreated: {
     currentMonth: number;
-    lastMonth: number;
+    previousMonth: number;
   };
 }
 
