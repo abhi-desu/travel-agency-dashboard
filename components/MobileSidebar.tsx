@@ -18,7 +18,7 @@ const MobileSidebar = ({}) => {
             alt="Logo"
             className="size-[30px]"
           />
-          <h1>KokoroTravel</h1>
+          <h1>Kokoro Travel</h1>
         </Link>
         <button onClick={toggleSidebar}>
           <img src="/assets/icons/menu.svg" alt="Menu" className="size-7" />
