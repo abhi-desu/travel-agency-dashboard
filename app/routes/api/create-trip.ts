@@ -27,8 +27,9 @@ export const action = async ({ request }: ActionFunctionArgs) => {
     {
     "name": "A descriptive title for the trip",
     "description": "A brief description of the trip and its highlights not exceeding 100 words",
-    "estimatedPrice": "Lowest average price for the trip in USD, e.g.$price",
-    "duration": ${numberOfDays},
+"estimatedPrice": "Lowest average price for the trip in Japanese Yen (JPY), e.g. ¥120,000",
+"duration": ${numberOfDays},
+
     "budget": "${budget}",
     "travelStyle": "${travelStyle}",
     "country": "${country}",
