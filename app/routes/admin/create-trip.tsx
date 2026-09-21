@@ -1,4 +1,5 @@
 import { Header } from "../../../components";
+
 import { ComboBoxComponent } from "@syncfusion/ej2-react-dropdowns";
 import type { Route } from "./+types/create-trip";
 import { comboBoxItems, selectItems } from "~/constants";
